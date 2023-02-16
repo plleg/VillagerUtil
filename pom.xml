@@ -3,7 +3,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>me.apeiros</groupId>
+    <groupId>me.plleg</groupId>
     <artifactId>VillagerUtil</artifactId>
     <version>MODIFIED</version>
 
@@ -53,7 +53,7 @@
                     <relocations>
                         <relocation>
                             <pattern>io.github.mooy1.infinitylib</pattern>
-                            <shadedPattern>me.apeiros.villagerutil.infinitylib</shadedPattern>
+                            <shadedPattern>me.plleg.villagerutil.infinitylib</shadedPattern>
                         </relocation>
                     </relocations>
 
@@ -93,14 +93,14 @@
         <dependency>
                <groupId>org.spigotmc</groupId>
                <artifactId>spigot-api</artifactId>
-               <version>1.18.1-R0.1-SNAPSHOT</version>
+               <version>1.19.3-R0.1-SNAPSHOT</version>
                <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>com.github.Slimefun</groupId>
             <artifactId>Slimefun4</artifactId>
-            <version>RC-30</version>
+            <version>RC-33</version>
             <scope>provided</scope>
 
             <exclusions>

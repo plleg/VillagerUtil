@@ -1,4 +1,4 @@
-package me.apeiros.villagerutil.util;
+package me.plleg.villagerutil.util;
 
 import java.nio.ByteBuffer;
 import java.util.UUID;

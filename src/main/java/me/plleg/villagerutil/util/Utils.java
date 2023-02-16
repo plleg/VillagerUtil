@@ -1,6 +1,8 @@
-package me.apeiros.villagerutil.util;
+package me.plleg.villagerutil.util;
 
 import lombok.experimental.UtilityClass;
+import me.plleg.villagerutil.Setup;
+import me.plleg.villagerutil.VillagerUtil;
 
 import org.bukkit.GameMode;
 import org.bukkit.Material;
@@ -14,9 +16,6 @@ import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.potion.PotionData;
 
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-
-import me.apeiros.villagerutil.Setup;
-import me.apeiros.villagerutil.VillagerUtil;
 
 @UtilityClass
 public class Utils {

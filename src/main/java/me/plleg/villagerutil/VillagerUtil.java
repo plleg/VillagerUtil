@@ -1,4 +1,4 @@
-package me.apeiros.villagerutil;
+package me.plleg.villagerutil;
 
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -17,7 +17,7 @@ public class VillagerUtil extends AbstractAddon {
 
     // Auto update things
     public VillagerUtil() {
-        super("Apeiros-46B", "VillagerUtil", "main", "options.auto-update");
+        super("plleg", "VillagerUtil", "main", "options.auto-update");
     }
 
     @Override

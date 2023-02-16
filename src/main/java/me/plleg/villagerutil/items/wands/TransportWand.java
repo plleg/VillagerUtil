@@ -1,4 +1,4 @@
-package me.apeiros.villagerutil.items.wands;
+package me.plleg.villagerutil.items.wands;
 
 import java.util.List;
 
@@ -23,10 +23,9 @@ import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.common.ChatColors;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
-
-import me.apeiros.villagerutil.Setup;
-import me.apeiros.villagerutil.util.UUIDTagType;
-import me.apeiros.villagerutil.util.Utils;
+import me.plleg.villagerutil.Setup;
+import me.plleg.villagerutil.util.UUIDTagType;
+import me.plleg.villagerutil.util.Utils;
 
 public class TransportWand extends SlimefunItem {
 

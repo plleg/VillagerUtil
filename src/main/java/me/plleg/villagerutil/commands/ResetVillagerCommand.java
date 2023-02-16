@@ -1,4 +1,4 @@
-package me.apeiros.villagerutil.commands;
+package me.plleg.villagerutil.commands;
 
 import java.util.regex.Pattern;
 
@@ -10,9 +10,8 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import io.github.thebusybiscuit.slimefun4.libraries.dough.common.ChatColors;
-
-import me.apeiros.villagerutil.VillagerUtil;
-import me.apeiros.villagerutil.items.wands.TradeWand;
+import me.plleg.villagerutil.VillagerUtil;
+import me.plleg.villagerutil.items.wands.TradeWand;
 
 public class ResetVillagerCommand implements CommandExecutor {
 

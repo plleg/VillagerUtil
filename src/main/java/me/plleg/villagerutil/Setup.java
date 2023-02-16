@@ -1,6 +1,13 @@
-package me.apeiros.villagerutil;
+package me.plleg.villagerutil;
 
 import lombok.experimental.UtilityClass;
+import me.plleg.villagerutil.commands.ResetVillagerCommand;
+import me.plleg.villagerutil.items.TransportCharm;
+import me.plleg.villagerutil.items.wands.CureWand;
+import me.plleg.villagerutil.items.wands.NitwitWand;
+import me.plleg.villagerutil.items.wands.TradeWand;
+import me.plleg.villagerutil.items.wands.TransportWand;
+import me.plleg.villagerutil.util.Utils;
 
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
@@ -11,13 +18,6 @@ import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import me.apeiros.villagerutil.commands.ResetVillagerCommand;
-import me.apeiros.villagerutil.items.TransportCharm;
-import me.apeiros.villagerutil.items.wands.CureWand;
-import me.apeiros.villagerutil.items.wands.NitwitWand;
-import me.apeiros.villagerutil.items.wands.TradeWand;
-import me.apeiros.villagerutil.items.wands.TransportWand;
-import me.apeiros.villagerutil.util.Utils;
 
 @UtilityClass
 public class Setup {

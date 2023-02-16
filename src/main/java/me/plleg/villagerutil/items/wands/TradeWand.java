@@ -1,4 +1,4 @@
-package me.apeiros.villagerutil.items.wands;
+package me.plleg.villagerutil.items.wands;
 
 import java.lang.ref.WeakReference;
 
@@ -27,10 +27,9 @@ import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.common.ChatColors;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
-
-import me.apeiros.villagerutil.Setup;
-import me.apeiros.villagerutil.VillagerUtil;
-import me.apeiros.villagerutil.util.Utils;
+import me.plleg.villagerutil.Setup;
+import me.plleg.villagerutil.VillagerUtil;
+import me.plleg.villagerutil.util.Utils;
 
 public class TradeWand extends SlimefunItem implements Listener {
 
